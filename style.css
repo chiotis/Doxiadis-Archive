@@ -1,0 +1,150 @@
+/* The style starts from smaller screens and builds up to the biggest */
+
+/* Small Screens */
+@media screen and (min-width: 100px) {
+	.header {
+		background: #840000 url('http://www.doxiadis.org/Templates/3/IMG2.gif') no-repeat bottom right;
+	}
+		.logo {
+			text-align: center;
+			padding-top: 50px;
+		}
+		.description {
+			text-align: center;
+		}
+		.nav ul {
+			margin: 0;
+			padding: 4px 6px 4px 20px;
+			background: #000;
+			text-align: center;
+		}
+	.main {
+		background: #fff;
+		padding: 0 6%;
+	}
+		.main .sidebar {
+			text-align: center;
+		}
+	.hero {
+		padding: 0 6%;
+	}
+	.footer {
+		padding: 20px 6%;
+	}
+		.footer p {
+			font-size: 12px;
+			text-align: center;
+		}
+		.footer-menu ul {
+			text-align: center;
+			list-style: none;
+			font-size: 11px;
+			margin: 20px 0;
+			padding: 0;
+		}
+		.footer-menu ul li {
+			display: inline;
+			margin: 0 5px 0 0;
+			padding: 0;
+		}
+		.footer-menu ul li:last-child {
+			margin: 0;
+		}
+		.footer form {
+			width: auto;
+			display: inline-block;
+		}
+}
+@media screen and (min-width: 468px) {
+	.width-25 {width:25%} .width-25.hor-align {margin-left: 37.5%;}
+	.width-50 {width:50%} .width-50.hor-align {margin-left: 25%;}
+	.width-75 {width:75%} .width-75.hor-align {margin-left: 12.5%;}
+	.width-100, .width-100 * {width:100%}
+}
+
+/* Medium Screens & Vertical Tablets */
+@media screen and (min-width: 768px) {
+	
+}
+
+/* Large Screens */
+@media screen and (min-width: 960px) {
+	
+	.header {
+		padding: 0 6%;
+		background-image: none;
+	}
+		.logo {
+			width: 25%;
+			text-align: right;
+			padding-right:20px;
+			padding-top: 120px;
+			padding-bottom: 20px;
+			border-right: 1px solid #000;
+		}
+		.logo h1 {
+			font-size: 18px;
+			margin: 0 0 5px 0;
+		}
+		.leader {
+			width: 75%;
+			background: url('http://www.doxiadis.org/Templates/3/IMG2.gif') no-repeat bottom right;
+			padding-top: 120px;
+			padding-bottom: 20px;
+		}
+		.description {
+			width: 25%;
+			padding-right: 20px;
+			clear:left;
+			text-align: right;
+		}
+		.nav {
+			width: 75%;
+		}
+		.nav ul {
+			text-align: left;
+		}
+  	.main {
+		padding: 20px 6%;
+	}
+		.main .sidebar {
+			width: 25%;
+			padding-right: 20px;
+			text-align: right;
+		}
+		.main .content {
+			width: 75%;
+			padding: 0 20px 0 0;
+		}
+	
+	.hero {
+		padding: 20px 6%;
+	}
+		.hero .sidebar {
+			width: 25%;
+			padding-right: 20px;
+		}
+		.hero .saying {
+			width: 37.5%;
+			padding: 0 20px 0 0;
+		}
+	
+	.footer {
+	}
+		.footer p {
+			text-align: left;
+		}
+		.footer-menu ul {
+			text-align: right;
+		}
+		.footer-menu ul li {
+
+		}
+		.footer-menu {
+			width: 25%;
+			padding-right: 20px;
+		}
+		.colophon {
+			width: 75%;
+		}
+}
